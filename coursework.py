@@ -128,13 +128,13 @@ elif q5 !="imagine":
             text_file.close()
             sys.exit()
 print("questin")
-q6=input(f.read(18))
+q6=input(f.read(14)).lower()
 if q6=="money":
     print ("correct")
     sum=sum+3
 elif q6!="money":
     print("wrong")
-    p6=input("try again what is the answer")
+    p6=input("try again what is the answer").lower()
     if p6=="money":
         print ("correct")
         sum=sum+1
@@ -151,13 +151,13 @@ elif q6!="money":
             text_file.close()
             sys.exit()
 print("question")
-q7=input(f.read(30))
+q7=input(f.read(34)).lower()
 if q7=="sicko mode":
     print ("correct")
     sum=sum+3
 elif q7 !="sicko mode":
     print("wrong")
-    p7=input("try again what is the answer")
+    p7=input("try again what is the answer").lower()
     if p7=="sicko mode":
         print ("correct")
         sum=sum+1
@@ -174,13 +174,13 @@ elif q7 !="sicko mode":
             text_file.close()
             sys.exit()
 print("question")
-q8=input(f.read(31))
+q8=input(f.read(36)).lower()
 if q8=="girls like you":
     print ("correct")
     sum=sum+3
 elif q8 !="girls like you":
     print("wrong")
-    p8=input("try again what is the answer")
+    p8=input("try again what is the answer").lower()
     if p8=="girls like you":
         print ("correct")
         sum=sum+1
@@ -197,13 +197,13 @@ elif q8 !="girls like you":
             text_file.close()
             sys.exit()
 print("question")
-q9=input(f.read(20))
+q9=input(f.read(19)).lower()
 if q9=="dna":
     print ("correct")
     sum=sum+3
 elif q9 !="dna":
     print("wrong")
-    p9=input("try again what is the answer")
+    p9=input("try again what is the answer").lower()
     if p9=="dna":
         print ("correct")
         sum=sum+1
@@ -220,14 +220,14 @@ elif q9 !="dna":
             text_file.close()
             sys.exit()
 print("question")
-q10=input(f.read(20))
-if q10=="diamond":
+q10=input(f.read(20)).lower()
+if q10=="diamonds":
     print ("correct")
     sum=sum+3
-elif q10 !="diamond":
+elif q10 !="diamonds":
     print("wrong")
-    p10=input("try again what is the answer")
-    if p10=="diamond":
+    p10=input("try again what is the answer").lower()
+    if p10=="diamonds":
         print ("correct")
         sum=sum+1
     else:
